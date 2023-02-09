@@ -1,0 +1,123 @@
+/*==========================
+        GENERALS
+===========================*/
+/*
+
+border: #ccc
+color logo: #999
+color home: #fff
+color: #333
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+@font-face {
+    font-family: Cinzel;
+    src: url("../fonts/Cinzel/Cinzel-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url("../fonts/Poppins/Poppins-Black.ttf");
+}
+
+
+/*===============================
+            HEADER
+================================*/
+
+
+h1 {
+    font-family: Cinzel;
+    font-size: 3rem;
+    color: #999;
+    font-weight: 200;
+    padding: 18px;
+    padding-bottom: 28px;
+    margin-left: 90px;
+}
+
+
+/*===============================
+            MAIN
+================================*/
+
+
+main #firstsec {
+    background-image: url("../img/main.avif");
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#firstsec h2{
+    color: #fff;
+    font-family: Cinzel;
+    font-size: 9.8vh;
+    text-align: center;
+    font-weight: 100;
+    padding: auto auto;
+    padding-top: 39vh;
+}
+
+main h3{
+    display: block;
+    font-family: Cinzel;
+    font-weight: 450;
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+#alpha1 p{
+    display: inline-block;
+    font-size: 1.8rem;
+    padding: 50px 100px 10px 100px;
+    height: 30vh;
+    text-align: center;
+    font-family: Poppins;
+    /* wie zum ... kann die schrift dünner werden?*/
+}
+
+#firstline, #secondline {
+    text-align: center;
+}    
+
+#firstline img, #secondline img {
+    width: 25%;
+    padding: 4vh 3vw;
+}
+
+main #alpha2{
+    font-size: 3.2rem;
+}
+
+/*===============================
+            FOOTER
+================================*/
+
+
+#footer a{
+    display: block;
+    font-family: Cinzel;
+    text-decoration: none;
+    font-weight: 450;
+    text-align: center;
+    color: #333;
+    font-size: 2.5rem;
+    padding-top: 10px;
+    margin-top: 90px;
+    width: 100vw;
+    padding-bottom: 30px;
+}
+
+#footer a:hover{
+    color: gray;
+}
+
